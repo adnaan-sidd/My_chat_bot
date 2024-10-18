@@ -1,0 +1,101 @@
+Collecting metaapi-cloud-sdk
+  Using cached metaapi_cloud_sdk-27.1.1.tar.gz (283 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting aiohttp==3.7.4 (from metaapi-cloud-sdk)
+  Using cached aiohttp-3.7.4.tar.gz (1.1 MB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting python-engineio==3.14.2 (from metaapi-cloud-sdk)
+  Downloading python_engineio-3.14.2-py2.py3-none-any.whl.metadata (2.0 kB)
+Requirement already satisfied: typing-extensions>=4.0.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from metaapi-cloud-sdk) (4.12.2)
+Collecting iso8601 (from metaapi-cloud-sdk)
+  Downloading iso8601-2.1.0-py3-none-any.whl.metadata (3.7 kB)
+Requirement already satisfied: pytz in /home/codespace/.local/lib/python3.12/site-packages (from metaapi-cloud-sdk) (2024.2)
+Collecting python-socketio==4.6.0 (from python-socketio[asyncio_client]==4.6.0->metaapi-cloud-sdk)
+  Downloading python_socketio-4.6.0-py2.py3-none-any.whl.metadata (1.9 kB)
+Requirement already satisfied: requests>=2.28.0 in /home/codespace/.local/lib/python3.12/site-packages (from metaapi-cloud-sdk) (2.32.3)
+Collecting websockets<12,>=11.0 (from metaapi-cloud-sdk)
+  Downloading websockets-11.0.3-py3-none-any.whl.metadata (6.6 kB)
+Collecting httpx==0.27.0 (from metaapi-cloud-sdk)
+  Downloading httpx-0.27.0-py3-none-any.whl.metadata (7.2 kB)
+Collecting metaapi-cloud-copyfactory-sdk<11.0.0,>=10.0.0 (from metaapi-cloud-sdk)
+  Downloading metaapi_cloud_copyfactory_sdk-10.0.0.tar.gz (48 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting metaapi-cloud-metastats-sdk<6.0.0,>=5.0.0 (from metaapi-cloud-sdk)
+  Downloading metaapi_cloud_metastats_sdk-5.0.0.tar.gz (19 kB)
+  Installing build dependencies: started
+  Installing build dependencies: finished with status 'done'
+  Getting requirements to build wheel: started
+  Getting requirements to build wheel: finished with status 'done'
+  Preparing metadata (pyproject.toml): started
+  Preparing metadata (pyproject.toml): finished with status 'done'
+Collecting rapidfuzz (from metaapi-cloud-sdk)
+  Downloading rapidfuzz-3.10.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (11 kB)
+Requirement already satisfied: attrs>=17.3.0 in /home/codespace/.local/lib/python3.12/site-packages (from aiohttp==3.7.4->metaapi-cloud-sdk) (24.2.0)
+Collecting chardet<4.0,>=2.0 (from aiohttp==3.7.4->metaapi-cloud-sdk)
+  Downloading chardet-3.0.4-py2.py3-none-any.whl.metadata (3.2 kB)
+Requirement already satisfied: multidict<7.0,>=4.5 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from aiohttp==3.7.4->metaapi-cloud-sdk) (6.1.0)
+Collecting async-timeout<4.0,>=3.0 (from aiohttp==3.7.4->metaapi-cloud-sdk)
+  Downloading async_timeout-3.0.1-py3-none-any.whl.metadata (4.0 kB)
+Requirement already satisfied: yarl<2.0,>=1.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from aiohttp==3.7.4->metaapi-cloud-sdk) (1.15.4)
+Requirement already satisfied: anyio in /home/codespace/.local/lib/python3.12/site-packages (from httpx==0.27.0->metaapi-cloud-sdk) (4.6.0)
+Requirement already satisfied: certifi in /home/codespace/.local/lib/python3.12/site-packages (from httpx==0.27.0->metaapi-cloud-sdk) (2024.8.30)
+Requirement already satisfied: httpcore==1.* in /home/codespace/.local/lib/python3.12/site-packages (from httpx==0.27.0->metaapi-cloud-sdk) (1.0.5)
+Requirement already satisfied: idna in /home/codespace/.local/lib/python3.12/site-packages (from httpx==0.27.0->metaapi-cloud-sdk) (3.10)
+Requirement already satisfied: sniffio in /home/codespace/.local/lib/python3.12/site-packages (from httpx==0.27.0->metaapi-cloud-sdk) (1.3.1)
+Requirement already satisfied: six>=1.9.0 in /home/codespace/.local/lib/python3.12/site-packages (from python-engineio==3.14.2->metaapi-cloud-sdk) (1.16.0)
+Requirement already satisfied: h11<0.15,>=0.13 in /home/codespace/.local/lib/python3.12/site-packages (from httpcore==1.*->httpx==0.27.0->metaapi-cloud-sdk) (0.14.0)
+Requirement already satisfied: charset-normalizer<4,>=2 in /home/codespace/.local/lib/python3.12/site-packages (from requests>=2.28.0->metaapi-cloud-sdk) (3.3.2)
+Requirement already satisfied: urllib3<3,>=1.21.1 in /home/codespace/.local/lib/python3.12/site-packages (from requests>=2.28.0->metaapi-cloud-sdk) (2.2.3)
+Requirement already satisfied: propcache>=0.2.0 in /usr/local/python/3.12.1/lib/python3.12/site-packages (from yarl<2.0,>=1.0->aiohttp==3.7.4->metaapi-cloud-sdk) (0.2.0)
+Downloading httpx-0.27.0-py3-none-any.whl (75 kB)
+Downloading python_engineio-3.14.2-py2.py3-none-any.whl (51 kB)
+Downloading python_socketio-4.6.0-py2.py3-none-any.whl (51 kB)
+Downloading websockets-11.0.3-py3-none-any.whl (118 kB)
+Downloading iso8601-2.1.0-py3-none-any.whl (7.5 kB)
+Downloading rapidfuzz-3.10.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (3.1 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 15.1 MB/s eta 0:00:00
+Downloading async_timeout-3.0.1-py3-none-any.whl (8.2 kB)
+Downloading chardet-3.0.4-py2.py3-none-any.whl (133 kB)
+Building wheels for collected packages: metaapi-cloud-sdk, aiohttp, metaapi-cloud-copyfactory-sdk, metaapi-cloud-metastats-sdk
+  Building wheel for metaapi-cloud-sdk (pyproject.toml): started
+  Building wheel for metaapi-cloud-sdk (pyproject.toml): finished with status 'done'
+  Created wheel for metaapi-cloud-sdk: filename=metaapi_cloud_sdk-27.1.1-py3-none-any.whl size=323962 sha256=f521c1c539c9dcd7f474e3ec423a84b920d8c576a743c0b8275237bdf2636f6e
+  Stored in directory: /home/codespace/.cache/pip/wheels/bc/86/ea/098d9d4467d5336cbfefd00d1f752ae7aa9566eecb81aa8c67
+  Building wheel for aiohttp (pyproject.toml): started
+  Building wheel for aiohttp (pyproject.toml): finished with status 'done'
+  Created wheel for aiohttp: filename=aiohttp-3.7.4-py3-none-any.whl size=451767 sha256=9a87378b64059e4cbaf8ea64fa45b98ccf3fc17a47f98e6b5087bd3a601514c9
+  Stored in directory: /home/codespace/.cache/pip/wheels/b5/aa/38/1b8af7b8799345b777f4611acf731c1ebe37b7038e3ef09102
+  Building wheel for metaapi-cloud-copyfactory-sdk (pyproject.toml): started
+  Building wheel for metaapi-cloud-copyfactory-sdk (pyproject.toml): finished with status 'done'
+  Created wheel for metaapi-cloud-copyfactory-sdk: filename=metaapi_cloud_copyfactory_sdk-10.0.0-py3-none-any.whl size=57689 sha256=13cb2047b2296da97f9a386bbe3125ae35a4d3265ff52d9d5b8090faa12c91dd
+  Stored in directory: /home/codespace/.cache/pip/wheels/92/21/a3/f9881e6ec611d9b9d34c7ac0f2f71f2f7f2e225e50e88a620f
+  Building wheel for metaapi-cloud-metastats-sdk (pyproject.toml): started
+  Building wheel for metaapi-cloud-metastats-sdk (pyproject.toml): finished with status 'done'
+  Created wheel for metaapi-cloud-metastats-sdk: filename=metaapi_cloud_metastats_sdk-5.0.0-py3-none-any.whl size=21377 sha256=137e954057255637d9468b307b5ade84c43111afceef58e139cb1d10678435da
+  Stored in directory: /home/codespace/.cache/pip/wheels/1e/51/0f/5fc572d0b5b56bfe27babff4221577b6cdaf2e86df56d3eaf7
+Successfully built metaapi-cloud-sdk aiohttp metaapi-cloud-copyfactory-sdk metaapi-cloud-metastats-sdk
+Installing collected packages: chardet, websockets, rapidfuzz, python-engineio, iso8601, async-timeout, python-socketio, httpx, aiohttp, metaapi-cloud-metastats-sdk, metaapi-cloud-copyfactory-sdk, metaapi-cloud-sdk
+  Attempting uninstall: httpx
+    Found existing installation: httpx 0.27.2
+    Uninstalling httpx-0.27.2:
+      Successfully uninstalled httpx-0.27.2
+  Attempting uninstall: aiohttp
+    Found existing installation: aiohttp 3.10.10
+    Uninstalling aiohttp-3.10.10:
+      Successfully uninstalled aiohttp-3.10.10
+Successfully installed aiohttp-3.7.4 async-timeout-3.0.1 chardet-3.0.4 httpx-0.27.0 iso8601-2.1.0 metaapi-cloud-copyfactory-sdk-10.0.0 metaapi-cloud-metastats-sdk-5.0.0 metaapi-cloud-sdk-27.1.1 python-engineio-3.14.2 python-socketio-4.6.0 rapidfuzz-3.10.0 websockets-11.0.3
